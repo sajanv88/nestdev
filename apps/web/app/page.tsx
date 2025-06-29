@@ -1,11 +1,11 @@
 import { Suspense } from 'react';
 import Image from 'next/image';
 
-import { Link } from '@repo/api/links/entities/link.entity';
+import { Link } from '@nestdev/api/links/entities/link.entity';
 
-import { Card } from '@repo/ui/card';
-import { Code } from '@repo/ui/code';
-import { Button } from '@repo/ui/button';
+import { Card } from '@nestdev/ui/card';
+import { Code } from '@nestdev/ui/code';
+import { Button } from '@nestdev/ui/button';
 
 import styles from './page.module.css';
 

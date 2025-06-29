@@ -21,11 +21,11 @@ This Turborepo includes the following packages/apps:
     │   ├── api                       # NestJS app (https://nestjs.com).
     │   └── web                       # Next.js app (https://nextjs.org).
     └── packages
-        ├── @repo/api                 # Shared `NestJS` resources.
-        ├── @repo/eslint-config       # `eslint` configurations (includes `prettier`)
-        ├── @repo/jest-config         # `jest` configurations
-        ├── @repo/typescript-config   # `tsconfig.json`s used throughout the monorepo
-        └── @repo/ui                  # Shareable stub React component library.
+        ├── @nestdev/api                 # Shared `NestJS` resources.
+        ├── @nestdev/eslint-config       # `eslint` configurations (includes `prettier`)
+        ├── @nestdev/jest-config         # `jest` configurations
+        ├── @nestdev/typescript-config   # `tsconfig.json`s used throughout the monorepo
+        └── @nestdev/ui                  # Shareable stub React component library.
 
 Each package and application are 100% [TypeScript](https://www.typescriptlang.org/) safe.
 
