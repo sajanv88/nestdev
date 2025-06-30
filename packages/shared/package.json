@@ -1,5 +1,5 @@
 {
-  "name": "@nestdev/auth-module",
+  "name": "@nestdev/shared",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -34,8 +34,6 @@
     }
   },
   "dependencies": {
-    "@nestdev/api": "workspace:*",
-    "@nestdev/shared": "workspace:*",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^10.0.0",
