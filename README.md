@@ -1,14 +1,7 @@
-# Turborepo starter
+# Nest Dev
 
 This is a community-maintained example. If you experience a problem, please submit a pull request with a fix. GitHub Issues will be closed.
 
-## Using this example
-
-Run the following command:
-
-```bash
-npx create-turbo@latest -e with-nestjs
-```
 
 ## What's inside?
 
@@ -86,6 +79,20 @@ pnpm run lint
 # See `@repo/eslint-config/prettier-base.js` to customize the behavior.
 pnpm format
 ```
+
+### Docker 
+```bash
+
+# We're running MongoDB, Redis, and a Faker SMTP email server using Docker for local development, with port mappings configured as follows:
+# MongoDB: 27013
+# Redis: 6373
+# Faker SMTP Server: SMTP on 1023, UI on 1083
+
+docker compose up -d
+
+
+```
+
 
 ### Remote Caching
 
